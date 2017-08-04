@@ -35,7 +35,7 @@
 			<a href="#" class="about" ng-click="active='about';about();">About</a>
 			<a href="#" class="contact" ng-click="active='contact';resume();">Resume</a>
 			<a href="#" class="project" ng-click="active='project';project();">Projects</a>
-			<a href="#" class="Hire_me" ng-click="active='Hire_me';hire_me();">Hire Me</a>
+			<!--<a href="#" class="Hire_me" ng-click="active='Hire_me';hire_me();">Hire Me</a>-->
 		</nav>
 
 	<div class="card">
@@ -56,19 +56,86 @@
 </div>
 
 <div id="content">
-	<div ng-show="home_flag">Hello,I am a graduate student studying Software Engineering at San Jose State University.</div>
+	<div ng-show="home_flag">Hello,I am a graduate student studying Software Engineering at San Jose State University.
+	</div>
+
 	<div id="plugin" ng-show="resume_flag">
-		<object standby="Resume" align="top" width="900" height="600" border="1" data="Sayali_More.pdf"></object>
+		<object standby="Resume" align="top" width="650" height="600" border="1" data="Sayali_More.pdf"></object>
 	</div>
-	<div ng-show="project_flag">
-	</div>
+
+	<div ng-show="project_flag"><!--<u><h1 style="margin-left:-550px;margin-top:-70px">Projects</h1></u>-->
+		<div style="margin-left:-500px;"><h1 style="margin-top:-100px;color:	#20B2AA">Epidemic Alert System using Blockchain</h1></div>
+		<br>
+		<h4 style="margin-left:-40px;"><p style="width:700px;" align="justify">
+Infectious diseases are leading cause of mortality and morbidity in all countries. In developing countries,the concern is detecting infectious disease outbreaks early and stopping their mortality,
+spread and potential impact on society.Epidemics alert system acts as mediator between public
+and health organizations.This alert system has created a network between public, local government,
+pharmacies as well as health organisations.If a patient has been detected with infectious
+disease,a text alert along with assistance needed to control the spread of disease,is sent to every person in that particular area where disease is detected. Our system also notifies pharmacies
+about the infectious disease and notifies local government so that they will take preventive
+measures in order to stop spread of disease.Blockchain is used to securely maintain all the records and maintain
+flow of data between all the entities.</p></h4><br>
+
+	<h5><p><span style="background-color:powderblue;margin-left:-750px;">NodeJS</span>&nbsp;&nbsp;<span style="background-color:powderblue;">AngularJS</span>
+	&nbsp;&nbsp;<span style="background-color:powderblue;">ExpressJS</span>&nbsp;&nbsp;<span style="background-color:powderblue;">IBM Blockchain</span>
+  &nbsp;&nbsp;<span style="background-color:powderblue;">REST</span></p>
+	<br>
+	<br>
+	<br>
+
+	<div style="margin-left:-900px;"><br><br><h1 style="margin-top:-50px;color:	#20B2AA">Ebay (Replica)</h1></div>
+	<br>
+	<h4 style="margin-left:-40px;"><p style="width:700px;" align="justify">
+	Ebay application is based on MEAN stack.The testing is done using JMeter and Mocha.</p></h4><br>
+
+<h5><p><span style="background-color:powderblue;margin-left:-700px;">NodeJS</span>&nbsp;&nbsp;<span style="background-color:powderblue;">AngularJS</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">ExpressJS</span>&nbsp;&nbsp;<span style="background-color:powderblue;">MongoDB</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">REST</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">JMeter</span>&nbsp;&nbsp;<span style="background-color:powderblue;">Mocha</span></p>
+
+<div style="margin-left:-620px;"><br><br><h1 style="margin-top:-10px;color:	#20B2AA">Face Recognition Attendance System</h1></div>
+<br>
+<h4 style="margin-left:-40px;"><p style="width:700px;" align="justify">
+Face recognition system was developed using python,HTML,flask and OpenCV Tool.This system would recognize the person’s live image with the
+one stoared in database and display matching percentage.MySQLdb was used to store the images.</p></h4><br>
+
+<h5><p><span style="background-color:powderblue;margin-left:-850px;">Python</span>&nbsp;&nbsp;<span style="background-color:powderblue;">HTML</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">Flask</span>&nbsp;&nbsp;<span style="background-color:powderblue;">MySQL</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">OpenCV</span></p>
+
+<div style="margin-left:-750px;"><br><br><h1 style="margin-top:-10px;color:	#20B2AA">Java Parser UML Generator</h1></div>
+<br>
+<h4 style="margin-left:-40px;"><p style="width:700px;" align="justify">
+	Java Parser UML Generator is Java based tool to reverse engineer the Java files to generate class diagrams.
+
+	This command line based tool uses Java Parser library to generate AST by parsing the Java files and then generates the class diagram using GraphViz library.</p></h4><br>
+
+<h5><p><span style="background-color:powderblue;margin-left:-820px;">Java Parser</span>&nbsp;&nbsp;<span style="background-color:powderblue;">Java</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">GraphViz</span>&nbsp;&nbsp;<span style="background-color:powderblue;">PlantUML</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">JUnit</span></p>
+
+<div style="margin-left:-730px;"><br><br><h1 style="margin-top:-10px;color:	#20B2AA">Gas Pump Machine Prototype</h1></div>
+<br>
+<h4 style="margin-left:-40px;"><p style="width:700px;" align="justify">
+	Gas pump machine prototype was developed in Greenfoot using Java.The main aim of the project was to illustrate use of design patterns.</p></h4><br>
+
+<h5><p><span style="background-color:powderblue;margin-left:-650px;">Java</span>&nbsp;&nbsp;<span style="background-color:powderblue;">Command Pattern</span>
+&nbsp;&nbsp;<span style="background-color:powderblue;">State Pattern</span>&nbsp;&nbsp;<span style="background-color:powderblue;">Chain of Responsibility Pattern</span>
+</p>
+
+
+
+</div>
+
+
 </div>
 
 
 
+
 </div>
 
-<div class="page-footer">Website developed by myself</div>
+<!--<div class="page-footer">Website developed by myself</div>-->
 </div>
 
 		<!-- Include AngularJS from Google's CDN -->
